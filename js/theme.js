@@ -10,7 +10,6 @@
     initClickedEvents();
     initEasyChart();
     initTyped();
-    initBtnFile();
     initHold();
   });
 
@@ -86,18 +85,6 @@
 
   //Click Envents
   function initClickedEvents() {
-    $('#hireme-tab').click(function() {
-      $('#myTab a[href="#tab1"]').tab('show');
-    });
-
-    $('#contact-tab').click(function() {
-      $('#myTab a[href="#tab0"]').tab('show');
-    });
-
-    $('.map-area').click(function() {
-      $(this).addClass('show');
-    });
-
     $('.back-to-top').click(function() {
       $('html, body').stop().animate({
         'scrollTop': 0
@@ -178,28 +165,6 @@
   //Tooltip Bootrapt
   function initTooltip() {
     $('[data-toggle="tooltip"]').tooltip();
-  }
-
-  //Tigger Custom Btn FIle
-  function initBtnFile() {
-    $(document).on('change', '.btn-file :file', function() {
-      var input = $(this),
-              numFiles = input.get(0).files ? input.get(0).files.length : 1,
-              label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-      input.trigger('fileselect', [numFiles, label]);
-    });
-
-    $('.btn-file :file').on('fileselect', function(event, numFiles, label) {
-      var input = $(this).parents('.input-group').find(':text'),
-              log = numFiles > 1 ? numFiles + ' files selected' : label;
-      if (input.length) {
-        input.val(log);
-      } else {
-        if (log) {
-          console.log(log);
-        }
-      }
-    });
   }
 
 })(jQuery);
