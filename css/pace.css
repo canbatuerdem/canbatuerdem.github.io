@@ -24,6 +24,10 @@ body {
     bottom: 0
 }
 
+    .pace.pace-inactive .pace-progress {
+        display: none;
+    }
+
     .pace .pace-progress {
         position: fixed;
         z-index: 2000;

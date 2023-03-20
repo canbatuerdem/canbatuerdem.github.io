@@ -958,6 +958,12 @@ h4, h5, h6 {
     text-align: center
 }
 
+    .chart canvas {
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
     .chart .percent {
         color: #000;
         display: inline-block;
