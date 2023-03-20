@@ -66,7 +66,7 @@ h4, h5, h6 {
 }
 
 .bg1 {
-    background-image: url(https://canbatuerdem.github.io/img/bg1.jpg)
+    background-image: url(https://canbatuerdem.github.io/img/bg1.webp)
 }
 
 .bg2 {
@@ -640,7 +640,7 @@ h4, h5, h6 {
 
     .main-header .header-content-fixed {
         height: 600px;
-        background: url(https://canbatuerdem.github.io/img/main-header.jpg) no-repeat center;
+        background: url(https://canbatuerdem.github.io/img/main-header.webp) no-repeat center;
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
@@ -725,7 +725,7 @@ h4, h5, h6 {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-image: url(https://canbatuerdem.github.io/img/my-pict.jpg);
+        background-image: url(https://canbatuerdem.github.io/img/my-pict.webp);
         position: absolute;
         left: 0;
         top: 0;
