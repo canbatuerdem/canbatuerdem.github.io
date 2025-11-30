@@ -21,6 +21,17 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="img/favicon.ico">
     <link href="css/pace.min.css" rel="stylesheet">
+    <script>
+        window.paceOptions = {
+            ajax: false,
+            document: true,
+            eventLag: false,
+            elements: false,
+            restartOnPushState: false,
+            restartOnRequestAfter: false
+        };
+        window.addEventListener('load', function () { if (window.Pace && Pace.bar) { Pace.bar.finish(); } });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -33,18 +44,18 @@
         gtag('config', 'UA-20820461-4');
     </script>
     <script type="application/ld+json">
-    {
-      "@context":"https://schema.org",
-      "@type":"Person",
-      "name":"Can Batu Erdem",
-      "url":"https://www.canbatuerdem.com/",
-      "jobTitle":"Chief Technology Officer",
-      "worksFor":{"@type":"Organization","name":"Independent"},
-      "sameAs":[
-        "https://us.linkedin.com/in/canbatuerdem",
-        "https://github.com/canbatuerdem"
-      ]
-    }
+        {
+          "@context":"https://schema.org",
+          "@type":"Person",
+          "name":"Can Batu Erdem",
+          "url":"https://www.canbatuerdem.com/",
+          "jobTitle":"Chief Technology Officer",
+          "worksFor":{"@type":"Organization","name":"Independent"},
+          "sameAs":[
+            "https://us.linkedin.com/in/canbatuerdem",
+            "https://github.com/canbatuerdem"
+          ]
+        }
     </script>
 </head>
 
@@ -107,7 +118,7 @@
                     <div class="bg-secondary clearfix">
                         <div class="inner-text">
                             <h3 class=" color-dark no-margin-top">Hello There!</h3>
-                            <p class="no-margin">Chief Technology Officer with 7+ years of experience in managing IT teams, including international and geographically diverse teams. Former full-stack architect/engineer with extensive experience in .Net and enterprise application development. Passionate about building great products and enabling others to perform their roles more effectively.</p>
+                            <p class="no-margin text-justify">High-impact, hands-on CTO & Chief Architect with a proven track record of rebuilding platforms others consider unsalvageable and designing stable, long-term architectures that eliminate future crises. Combines deep engineering expertise across infrastructure, security, databases, distributed systems, CI/CD, DDoS mitigation, cloud networking and reverse engineering with enterprise-scale architectural leadership. Acts as the final technical authority in high-risk scenarios while keeping organizational friction low through business-aligned governance. Has built real AI-driven systems beyond prompt-based wrappers, including vector databases, semantic retrieval and LLM orchestration layers used in production data foundations. Experienced in both long-term product ownership and high-intensity consulting, with platforms remaining in active use years after delivery.</p>
                         </div>
                     </div>
                     <div class="bg-dark clearfix">
@@ -164,7 +175,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Chief Technology Officer</h5>
                                 <p class="font-alt color-dark"><a href="https://www.doa.com.tr/" target="_blank">DOA Software</a>, Istanbul (Turkey)</p>
-                                <p class="text-justify">As the Chief Technology Officer (CTO), I assumed a multifaceted leadership role, overseeing the IT development team and effectively managing its budgetary aspects. My responsibilities extended beyond the technical realm, as I actively contributed to sales meetings and played a pivotal role in crafting and tracking our yearly master plan. Leveraging my international experience, I also took charge of nurturing and managing our international customer accounts, further solidifying our global presence and client relationships.</p>
+                                <p class="text-justify">Held full technical authority over all high-risk architectural decisions while leading a cross-functional team of 15+ across engineering, analysis, infrastructure and sales-technical streams. Rebuilt multiple legacy systems through deep reverse engineering in under two weeks, transformed half-day manual deployments on 60 servers into a 15-second one-click pipeline, and directly resolved critical Cloudflare, DDoS, load-balancer and tunnel-architecture failures. Owned all international meetings, demos and negotiations as the sole English-speaking lead, defined the full modernization roadmap across cloud, security, architecture and delivery, and directly influenced sales by shaping solution architecture and leading technical negotiations.</p>
                                 <p class="font-alt color-dark">  09.2020</p>
                             </div>
                         </li>
@@ -174,7 +185,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Chief Technology Officer</h5>
                                 <p class="font-alt color-dark"><a href="https://www.gyldagency.com/" target="_blank">GYLD Agency</a>, Melbourne (Australia)</p>
-                                <p class="text-justify">As CTO, I spearhead the development and execution of our technology strategy, shaping our future direction. I lead a dynamic team of tech professionals, driving innovation and ensuring our tech infrastructure aligns with our business goals. In this strategic leadership role, I blend a visionary mindset with technical expertise to transform ideas into cutting-edge solutions.</p>
+                                <p class="text-justify">Served in a project-based CTO role aligned with pre-seed investor timelines, concluding after delivery of the core demoable product. Led a 7-person engineering team as both shareholder and technology owner, delivering investor-ready iterations under extreme ASAP cycles. Built the full CI/CD automation from zero with one-click deployments, coordinated AU / TR / EU engineering dependencies for on-time delivery, architected and delivered the Athena platform foundations for investor demos, and implemented a real AI data layer including vector databases, semantic retrieval, ETL and LLM orchestration.</p>
                                 <p class="font-alt color-dark">  06.2023-10.2023</p>
                             </div>
                         </li>
@@ -184,8 +195,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">IT Application Analysis Expert (Vice Presient)</h5>
                                 <p class="font-alt color-dark"><a href="https://www.unicredit.it/" target="_blank">UniCredit</a>, Milan (Italy)</p>
-                                <p class="text-justify">First and foremost, I achieved the extraordinary by successfully leading the HR Transformation project at UniCredit Italy, overcoming formidable challenges along the way. Upon joining the organization, I spearheaded the recruitment and direction of a high-performing development team while also assuming responsibility for guiding the infrastructure team. In addition, I meticulously formulated and implemented internal development standards, providing coaching and mentorship to onboarded developers to ensure adherence.</p>
-                                <p class="text-justify">I drove enhancements to the existing deployment process and established a robust emergency procedure for our production environment, bolstering our operational resilience. In parallel, I wore multiple hats, serving as a Microsoft SQL Server DBA and a Security Expert. Furthermore, I exercised oversight in managing our software provider, further solidifying my role as a versatile and impactful leader within the organization.</p>
+                                <p class="text-justify">Led the HR Digital Transformation for UniCredit Italy by coordinating and influencing 200+ cross-regional contributors across Italy, Germany and Turkey vendor teams, driving delivery across multiple departments and hierarchies. Supported HR platforms serving 30,000+ employees including payroll, leave, identity and workforce systems, built deployment pipelines from scratch to increase stability and reduce deployment failure rates by ~20%, and owned the full SQL Server & Oracle performance layer with AWR-driven tuning on heavy workloads. Acted as the primary security authority by defining DMZ and internal server segmentation, enforcing all firewall and security rules, and managed the internal–external vendor ecosystem to ensure delivery quality, architectural alignment and compliance.</p>
                                 <p class="font-alt color-dark"> 06.2018-06.2020</p>
                             </div>
                         </li>
@@ -195,8 +205,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Chief Software Architect</h5>
                                 <p class="font-alt color-dark"><a href="https://www.biscozum.com.tr/" target="_blank">BIS Cozum</a>, Istanbul (Turkey)</p>
-                                <p class="text-justify">As the leader of the Framework Team, I orchestrated the assembly of a dynamic and diverse group, leveraging a range of talents and qualifications. My team and I were entrusted with the support and maintenance of a portfolio of products, but we didn't stop there. Under my guidance, we embarked on a transformative journey, introducing a new line of mobile applications. We harnessed the power of cloud technologies, utilizing both Amazon AWS and Microsoft Azure, alongside virtualization technology through VMware ESX.</p>
-                                <p class="text-justify">I had the privilege of participating in one of the most high-budget projects in Turkey, the HR Transformation of UniCredit Italy. In this dual role as manager of both the Framework and Mobile Applications teams, I also served as a valuable consultant. My contributions spanned from identifying hardware requirements and product topologies to establishing a seamless product delivery and deployment lifecycle between BIS and UniCredit. Our efforts culminated in the successful launch of multiple software solutions, all managed by the Framework Team.</p>
+                                <p class="text-justify">Led the Framework & Mobile teams responsible for six enterprise products across banking and finance, while designing large-scale architectures leveraging AWS, Azure, ESXi and distributed system components. Played a key role in the UniCredit Italy transformation program spanning architecture, infrastructure planning and delivery lifecycle, and standardized development practices to significantly reduce feature delivery times while improving long-term maintainability.</p>
                                 <p class="font-alt color-dark"> 06.2016-11.2017</p>
                             </div>
                         </li>
@@ -206,7 +215,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Senior Consultant</h5>
                                 <p class="font-alt color-dark"><a href="https://www.yapikredi.com.tr/" target="_blank">Yapi Kredi</a>, Kocaeli (Turkey)</p>
-                                <p class="text-justify">As a trusted consultant to the Human Resources IT Director, I served as a reliable source of information, offering valuable insights into the development team's capabilities, cutting-edge technology trends, and effective problem-solving strategies. At the Director's request, I also had the privilege of representing him on occasions, further fostering collaboration and success within our organization.</p>
+                                <p class="text-justify">Served as a trusted advisor to the HR IT Director on strategy, feasibility and technology direction, regularly representing the director in both technical and managerial meetings. Provided continuous assessments on team capacity, technology adoption readiness and critical architecture decisions to support executive-level planning and risk management.</p>
                                 <p class="font-alt color-dark"> 08.2013-09.2015</p>
                             </div>
                         </li>
@@ -216,8 +225,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Software Architect</h5>
                                 <p class="font-alt color-dark"><a href="https://www.biscozum.com.tr/" target="_blank">BIS Cozum</a>, Istanbul (Turkey)</p>
-                                <p class="text-justify">Played a pivotal role in shaping the design and development of innovative database and system solutions for new products. Introduced cutting-edge technologies such as Team Foundation Server and Communication Server to streamline operations. I also designed an ORM layer, Athena, tailored to the project's requirements and developer workflows, which has been instrumental in the company for over five years.</p>
-                                <p class="text-justify">I take pride in my contributions to the development of unique frameworks, namely Colossus, Dionysus, and Ares, which have set industry benchmarks. These frameworks are now employed by leading organizations such as Yapı Kredi, Akbank, and Borusan, showcasing their impact and success in the Turkish market.</p>
+                                <p class="text-justify">Designed enterprise-grade frameworks (Colossus, Dionysus, Ares) that were adopted by major financial institutions including Akbank, Yapı Kredi and İş Faktoring, enabling large-scale standardization across multiple products. Reduced module development time from approximately two days to four hours through framework-driven architecture, while significantly increasing developer productivity by enforcing consistent development patterns, integrations and tooling.</p>
                                 <p class="font-alt color-dark"> 07.2012-06.2016</p>
                             </div>
                         </li>
@@ -227,7 +235,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Team Leader</h5>
                                 <p class="font-alt color-dark"><a href="https://www.biscozum.com.tr/" target="_blank">BIS Cozum</a>, Istanbul (Turkey)</p>
-                                <p class="text-justify">Played an integral role in the comprehensive architectural design of a robust consumer finance system, contributing expertise from database infrastructure to user interface development throughout all project phases. Additionally, I had the privilege of spearheading the team responsible for the dealer module, leveraging Silverlight technology to drive innovation and efficiency in our solutions.</p>
+                                <p class="text-justify">Led the end-to-end development of a consumer finance platform spanning database design, backend services and user interface layers, while delivering high-performance dealer module components using Microsoft Silverlight with custom framework integrations to meet demanding real-time performance and enterprise usability requirements.</p>
                                 <p class="font-alt color-dark"> 10.2011-07.2012</p>
                             </div>
                         </li>
@@ -237,7 +245,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Analyst Software Developer</h5>
                                 <p class="font-alt color-dark"><a href="https://www.nexum.com.tr/" target="_blank">Nexum Bogazici</a>, Istanbul (Turkey)</p>
-                                <p class="text-justify">As the custodian of the company's entire suite of products that contains online credit card transactions, I not only took charge of their management but also diligently improved and customized them to align with our clients' specific requirements. My adept problem-solving skills extended beyond our product offerings, allowing me to play a pivotal role in addressing challenges across various company projects, ultimately contributing to enhanced customer satisfaction and project success.</p>
+                                <p class="text-justify">Maintained and continuously enhanced the online credit card processing platform serving multiple clients, while delivering custom developments across diverse parallel projects to improve reliability, feature delivery speed and overall customer outcomes.</p>
                                 <p class="font-alt color-dark"> 04.2011-10.2011</p>
                             </div>
                         </li>
@@ -247,7 +255,7 @@
                             <div class="desc">
                                 <h5 class="text-uppercase color-dark text-bold">Software Developer</h5>
                                 <p class="font-alt color-dark"><a href="https://www.veripark.com/" target="_blank">VeriPark</a>, Istanbul (Turkey)</p>
-                                <p class="text-justify">During my tenure, I excelled in crafting tailored B2B and B2C solutions to address clients' specific requirements. I played a pivotal role in driving success for call center and online store initiatives, assuming the position of a key team member. Notably, I led the implementation of a state-of-the-art 3D secure payment system within the VPOS application and seamlessly integrated it with numerous leading Turkish banks.</p>
+                                <p class="text-justify">Implemented 3D Secure payment integrations across approximately 25 banks, powering high-traffic platforms such as Yemeksepeti, and built scalable B2B/B2C components to support large-volume, mission-critical financial operations.</p>
                                 <p class="font-alt color-dark"> 10.2010-04.2011</p>
                             </div>
                         </li>
@@ -298,18 +306,18 @@
                 <ul class="skill top list-unstyled clearfix">
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box br-right br-bottom">
-                            <span class="chart" data-percent="96">
+                            <span class="chart" data-percent="92">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase  color-dark">Leadership</div>
+                            <div class="text-uppercase  color-dark">AI Systems, Data Layers & LLM Orchestration</div>
                         </div>
                     </li>
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box br-right br-bottom">
-                            <span class="chart" data-percent="91">
+                            <span class="chart" data-percent="90">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase  color-dark">Coaching & Career Planning</div>
+                            <div class="text-uppercase  color-dark">Cloud & Distributed Architecture</div>
                         </div>
                     </li>
                     <li class="col-sm-3 col-xs-6 no-padding">
@@ -317,49 +325,49 @@
                             <span class="chart" data-percent="93">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase  color-dark">Project & Time Management</div>
+                            <div class="text-uppercase  color-dark">Platform & Infrastructure Engineering</div>
                         </div>
                     </li>
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box br-bottom">
-                            <span class="chart" data-percent="99">
+                            <span class="chart" data-percent="88">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase color-dark">Crisis Management</div>
+                            <div class="text-uppercase color-dark">Security, DDoS, Network & Perimeter Architecture</div>
                         </div>
                     </li>
                 </ul>
                 <ul class="skill bottom list-unstyled clearfix">
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box br-right">
-                            <span class="chart" data-percent="85">
+                            <span class="chart" data-percent="94">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase  color-dark">Cloud Systems and Virtualization</div>
+                            <div class="text-uppercase  color-dark">DevOps, CI/CD & Full Automation Pipelines</div>
                         </div>
                     </li>
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box br-right">
-                            <span class="chart" data-percent="55">
+                            <span class="chart" data-percent="96">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase  color-dark">Artificial Intelligence</div>
+                            <div class="text-uppercase  color-dark">Legacy System Recovery & Reverse Engineering</div>
                         </div>
                     </li>
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box br-right">
-                            <span class="chart" data-percent="90">
+                            <span class="chart" data-percent="89">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase  color-dark">Enterprise Architecture</div>
+                            <div class="text-uppercase  color-dark">Enterprise Architecture & Technical Governance</div>
                         </div>
                     </li>
                     <li class="col-sm-3 col-xs-6 no-padding">
                         <div class="box">
-                            <span class="chart" data-percent="84">
+                            <span class="chart" data-percent="95">
                                 <span class="percent"></span>
                             </span>
-                            <div class="text-uppercase color-dark">.Net</div>
+                            <div class="text-uppercase color-dark">CTO-Level Technical Leadership & Crisis Authority</div>
                         </div>
                     </li>
                 </ul>
@@ -370,21 +378,21 @@
                     <div class="col-sm-6">
                         <ul class="list-unstyled list-progress">
                             <li>
-                                <div class="text-uppercase color-dark title "><span>Motorcycle</span>  <small>85%</small></div>
+                                <div class="text-uppercase color-dark title "><span>Motorcycling </span><small>88%</small></div>
                                 <div class="progress-line">
-                                    <div class="line" data-holdwidth="85%"></div>
+                                    <div class="line" data-holdwidth="88%"></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="text-uppercase color-dark title">Archery   <small>50%</small></div>
+                                <div class="text-uppercase color-dark title "><span>Scuba Diving </span><small>90%</small></div>
                                 <div class="progress-line">
-                                    <div class="line" data-holdwidth="50%"></div>
+                                    <div class="line" data-holdwidth="90%"></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="text-uppercase color-dark title">Hunting   <small>80%</small></div>
+                                <div class="text-uppercase color-dark title "><span>Hunting & Tracking </span><small>82%</small></div>
                                 <div class="progress-line">
-                                    <div class="line" data-holdwidth="80%"></div>
+                                    <div class="line" data-holdwidth="82%"></div>
                                 </div>
                             </li>
                         </ul>
@@ -392,21 +400,21 @@
                     <div class="col-sm-6">
                         <ul class="list-unstyled list-progress">
                             <li>
-                                <div class="text-uppercase color-dark title">Bartending  <small>80%</small></div>
+                                <div class="text-uppercase color-dark title "><span>Archery </span><small>60%</small></div>
                                 <div class="progress-line">
-                                    <div class="line" data-holdwidth="80%"></div>
+                                    <div class="line" data-holdwidth="60%"></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="text-uppercase color-dark title">Scuba Diving  <small>90%</small></div>
+                                <div class="text-uppercase color-dark title "><span>Camping & Survival </span><small>68%</small></div>
                                 <div class="progress-line">
-                                    <div class="line" data-holdwidth="90%"></div>
+                                    <div class="line" data-holdwidth="68%"></div>
                                 </div>
                             </li>
                             <li>
-                                <div class="text-uppercase color-dark title">Camping  <small>65%</small></div>
+                                <div class="text-uppercase color-dark title "><span>Bartending </span><small>72%</small></div>
                                 <div class="progress-line">
-                                    <div class="line" data-holdwidth="65%"></div>
+                                    <div class="line" data-holdwidth="72%"></div>
                                 </div>
                             </li>
                         </ul>
